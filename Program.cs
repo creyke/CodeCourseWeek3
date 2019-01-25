@@ -6,6 +6,12 @@ namespace CodeCourseWeek3
     {
         static void Main(string[] args)
         {
+            var cow = 1;
+            Cow.Moo(cow);
+            Cow.Milk(cow);
+            
+            var lion = 2;
+            Lion.Roar(lion);
         }
     }
 }
